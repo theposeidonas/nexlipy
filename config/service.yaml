@@ -1,0 +1,19 @@
+name: "NexlipyService"
+version: "1.0.0"
+environment: "dev"
+
+schedule:
+  module_interval: 5
+  cycle_interval: 90
+
+api:
+  base_url: "https://api.example.com"
+  token: "your_api_token"
+  timeout: 30
+
+logging:
+  level: "INFO"
+  file: "logs/service.log"
+
+service_behavior:
+  retry_attempts: 3

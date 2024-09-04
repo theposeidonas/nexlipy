@@ -1,0 +1,8 @@
+# VSCode files
+.vscode/
+*.code-workspace
+
+# JetBrains IDE files
+.idea/
+*.iml
+out/
