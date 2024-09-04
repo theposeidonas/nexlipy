@@ -41,5 +41,6 @@ nexlipy/
 ## Creating Modules
 Service modules are defined within the modules/ directory. Each module must reside within its own directory and include an __init__.py file where the service logic is implemented.
 
-### Example Module: modules/Hello/
-The Hello module demonstrates how a service module can be created within the Nexlipy framework. Below is an example of how to define a simple service task that executes depending on the environment:
+### Notes
+
+Please keep in mind that this framework was created entirely as a personal project for my Linux server to meet amateur needs. If you would like to support the project, feel free to report issues or feature requests in the Issues section. You are welcome to contribute to the project in any way you like. If you'd like to improve or optimize any parts of the project, feel free to submit a pull request. Thank you in advance for your interest and support!
