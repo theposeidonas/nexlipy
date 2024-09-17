@@ -3,7 +3,7 @@ version: "1.0.0"
 environment: "dev"
 
 schedule:
-  module_interval: 5
+  module_interval: 1
   cycle_interval: 90
 
 api:
@@ -17,3 +17,4 @@ logging:
 
 service_behavior:
   retry_attempts: 3
+  retry_interval: 1
